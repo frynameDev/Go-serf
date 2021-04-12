@@ -183,7 +183,6 @@
 }
 
 .surf {
-  padding: 160px 0 120px;
   background-image: url(../images/surf-bg.png);
   background-position: right 200px;
   background-repeat: no-repeat;
@@ -424,6 +423,89 @@
         left: auto;
         right: -1px;
       }
+    }
+  }
+}
+
+.travel {
+  background-image: url(../images/travel-bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  .slider-arrows {
+    opacity: 0.25;
+    top: 230px;
+  }
+}
+.travel-slider {
+  &__head {
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 780px;
+  }
+  &__descr {
+    margin-top: -230px;
+    padding-top: 160px;
+    padding-left: 132px;
+    min-height: 320px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    .descr__head {
+      position: relative;
+      padding-right: 78px;
+      img {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+  &__subtitle {
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 132px;
+  }
+  &__btn {
+    text-align: center;
+  }
+}
+.travel-slider__info {
+  display: flex;
+  justify-content: space-around;
+  &-item {
+    min-height: 200px;
+    margin-bottom: 66px;
+    position: relative;
+  }
+  &-subtitle {
+    position: absolute;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    opacity: 0.5;
+    transform: rotate(-90deg);
+    top: 97px;
+    left: -97px;
+    width: 200px;
+    height: 0;
+    text-align: right;
+    white-space: nowrap;
+  }
+  &-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    padding-left: 40px;
+    position: relative;
+    span {
+      position: absolute;
+      bottom: -24px;
+      right: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 36px;
+      letter-spacing: 5.25px;
+      opacity: 0.75;
+      text-align: right;
     }
   }
 }
