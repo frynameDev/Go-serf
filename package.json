@@ -9,6 +9,7 @@
   "author": "Vadym Prokopchuk",
   "license": "ISC",
   "devDependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -17,6 +18,7 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "wow.js": "^1.2.2"
   }
 }
